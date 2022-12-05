@@ -13,7 +13,28 @@
 </head>
 
 <body>
-	<header></header>
+	<!-- header con display flex aggiustato al centro -->
+	<header class="d-flex">
+		<!-- figlio di header, anch'esso con display flex -->
+		<div class="container-header d-flex">
+			<!-- 3 figli di container-header -->
+			<div class="logo">logo</div>
+			<nav class="header-links">
+				<!-- ul, figlio di header-links, ha display flex 
+					per poter mettere i link su una riga -->
+				<ul class="d-flex">
+					<li><a href="#" link=""></a>link</li>
+					<li><a href="#" link=""></a>link</li>
+					<li><a href="#" link=""></a>link</li>
+					<li><a href="#" link=""></a>link</li>
+					<li><a href="#" link=""></a>link</li>
+				</ul>
+			</nav>
+			<div class="login">login</div>
+		</div>
+	</header>
+
+
 	<main>
 		<section>
 
@@ -35,7 +56,7 @@
 		</section>
 	</main>
 	<footer>
-		
+
 	</footer>
 </body>
 
