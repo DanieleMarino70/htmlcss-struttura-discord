@@ -14,3 +14,8 @@
 .d-flex{
 	display: flex;
 }
+
+#bg-section-grey{
+    background-color: #d3d3d3;
+
+}
