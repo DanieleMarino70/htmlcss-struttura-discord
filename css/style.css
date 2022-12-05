@@ -41,3 +41,20 @@ header{
     gap: 10px;
 }
 
+/* MAIN */
+
+/* Section */
+
+.first-section{
+    min-height: 500px;
+    background-color: #00008b;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-card{
+    min-height: 400px;
+    width: 1000px;
+    background-color: #ee82ee;
+    border: 2px dashed black;
+}
