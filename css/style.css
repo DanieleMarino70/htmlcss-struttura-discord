@@ -99,3 +99,33 @@ header{
     border: 2px dashed black;
     background-color: #228b22;
 }
+
+/* 4) */
+
+.fourth-section{
+    min-height: 550px;
+    background-color: #23272a;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.fourth-card{
+    min-height: 500px;
+    width: 1200px;
+    border: 2px dashed black;
+    margin-top: 10px;
+}
+
+.card-body-lightred{
+    width:calc(1200px / 6 * 2);
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+
+.card-body-greenaqua{
+    width: calc(1200px / 6);
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
