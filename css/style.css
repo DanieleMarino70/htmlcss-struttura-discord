@@ -129,3 +129,35 @@ header{
     background-color: #20b2aa;
     border: 2px dashed white;
 }
+
+/* FOOTER */
+
+footer{
+    min-height: 100px;
+    background-color: #23272a;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 2px solid white;
+}
+
+.container-footer{
+    background-color: #7fffd4;
+    width: 1200px;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.little-logo{
+    padding: 10px;
+    height: 50px;
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+}
+
+.little-button{
+    width: 100px;
+    height: 50px;
+    background-color: #ffb6c1;
+    border: 2px dashed black;
+}
