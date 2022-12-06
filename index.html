@@ -13,85 +13,88 @@
 </head>
 
 <body>
-	<!-- header con display flex aggiustato al centro -->
-	<header class="d-flex">
-		<!-- figlio di header, anch'esso con display flex -->
-		<div class="container-header d-flex">
-			<!-- 3 figli di container-header -->
-			<div class="logo">logo</div>
-			<nav class="header-links">
-				<!-- ul, figlio di header-links, ha display flex 
-					per poter mettere i link su una riga -->
-				<ul class="d-flex">
-					<li><a href="#" link="#">link</a></li>
-					<li><a href="#" link="#">link</a></li>
-					<li><a href="#" link="#">link</a></li>
-					<li><a href="#" link="#">link</a></li>
-					<li><a href="#" link="#">link</a></li>
-				</ul>
+	
+	<header>
+		<div class="header-head d-flex">
+			<nav class="container-header d-flex">
+				
+				<div class="logo">logo</div>
+				<nav class="header-links">
+					
+					<ul class="d-flex">
+						<li><a href="#" link="#">link</a></li>
+						<li><a href="#" link="#">link</a></li>
+						<li><a href="#" link="#">link</a></li>
+						<li><a href="#" link="#">link</a></li>
+						<li><a href="#" link="#">link</a></li>
+					</ul>
+				</nav>
+				<div class="login">login</div>
 			</nav>
-			<div class="login">login</div>
 		</div>
+
+		<div class="jumbotron d-flex">
+			<div class="content"></div>
+		</div>
+
 	</header>
 
 
 	<main>
-		<!-- 1) -->
-		<section class="first-section d-flex">
-			<div class="first-card"></div>
-		</section>
 		
-		<!-- 2) -->
-		<div class="case-second-section">
-			<section class="second-section d-flex">
-				<div class="second-card d-flex">
+		<div class="case-main-section">
+			<section class="repeated-main-section d-flex">
+				<div class="whole-card d-flex">
 					<div class="card-body-blue"></div>
 					<div class="card-body-pink"></div>
 				</div>
 			</section>
 	
-			<section class="second-section d-flex" id="bg-section-grey">
-				<div class="second-card d-flex">
+			<section class="repeated-main-section d-flex bg-grey">
+				<div class="whole-card d-flex">
 					<div class="card-body-pink"></div>
 					<div class="card-body-blue"></div>
 				</div>
 			</section>
 	
-			<section class="second-section d-flex">
-				<div class="second-card d-flex">
+			<section class="repeated-main-section d-flex">
+				<div class="whole-card d-flex">
 					<div class="card-body-blue"></div>
 					<div class="card-body-pink"></div>
 				</div>
 			</section>
+
+			<section class="lg-repeated-main-section d-flex">
+				<div class="lg-whole-card d-flex">
+					
+				</div>
+			</section>
+
 		</div>
 
-		<!-- 3) -->
-		<section class="third-section d-flex">
-			<div class="third-card d-flex">
-				
-			</div>
-		</section>
-		
-		<!-- 4) -->
-		<section class="fourth-section d-flex">
-			<div class="fourth-card d-flex">
-				<div class="card-body-lightred"></div>
-				<div class="card-body-greenaqua"></div>
-				<div class="card-body-greenaqua"></div>
-				<div class="card-body-greenaqua"></div>
-				<div class="card-body-greenaqua"></div>
-			</div>
-		</section>
 	</main>
+	
+	
+	<footer>
+		<div class="footer-upper d-flex">
+			<div class="footer-upper-content d-flex">
+				<div class="footer-main-card d-flex">
+					<div class="card-body-lightred"></div>
+					<div class="card-body-greenaqua"></div>
+					<div class="card-body-greenaqua"></div>
+					<div class="card-body-greenaqua"></div>
+					<div class="card-body-greenaqua"></div>
+				</div>
+			</div>
 
-
-	<footer class="d-flex">
-		<div class="container-footer d-flex">
-			<div class="little-logo">Logo</div>
-			<button class="little-button">Bottone</button>
 		</div>
 
-
+		<div class="footer-lower d-flex">
+			<div class="container-footer d-flex">
+				<div class="little-logo">Logo</div>
+				<button class="little-button">Bottone</button>
+			</div>
+		</div>
 
 	</footer>
 </body>

@@ -1,6 +1,6 @@
 /* HEADER */
 
-header{
+.header-head{
     min-height: 100px;
     background-color: #add8e6;
     justify-content: center;
@@ -41,34 +41,32 @@ header{
     gap: 10px;
 }
 
-/* MAIN */
-
-/* Section */
-
-/* 1) */
-.first-section{
+.jumbotron{
     min-height: 500px;
     background-color: #00008b;
     justify-content: center;
     align-items: center;
 }
 
-.first-card{
+.content{
     min-height: 400px;
     width: 700px;
     background-color: #ee82ee;
     border: 2px dashed black;
 }
+/* MAIN */
 
-/* 2) */
-.second-section{
+/* Section */
+
+
+.repeated-main-section{
     min-height: 600px;
     background-color: #ffffff;
     justify-content: center;
     align-items: center;
 }
 
-.second-card{
+.whole-card{
     min-height: 500px;
     width: 1200px;
     border: 2px dashed black;
@@ -84,8 +82,8 @@ header{
     background-color: #ffc0cb;
 }
 
-/* 3) */
-.third-section{
+
+.lg-repeated-main-section{
     min-height: 1000px;
     background-color: #d3d3d3;
     justify-content: center;
@@ -93,16 +91,26 @@ header{
 
 }
 
-.third-card{
+.lg-whole-card{
     min-height: 900px;
     width: 1200px;
     border: 2px dashed black;
     background-color: #228b22;
 }
 
-/* 4) */
 
-.fourth-section{
+
+
+/* FOOTER */
+
+.footer-upper{
+    min-height: 100px;
+    background-color: #23272a;
+    justify-content: center;
+    
+}
+
+.footer-upper-content{
     min-height: 550px;
     background-color: #23272a;
     justify-content: center;
@@ -111,7 +119,7 @@ header{
 
 }
 
-.fourth-card{
+.footer-main-card{
     min-height: 500px;
     width: 1200px;
     border: 2px dashed black;
@@ -130,9 +138,8 @@ header{
     border: 2px dashed white;
 }
 
-/* FOOTER */
 
-footer{
+.footer-lower{
     min-height: 100px;
     background-color: #23272a;
     justify-content: center;
